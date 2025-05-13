@@ -8,10 +8,10 @@
 4. File change notification and call JobLauncher (static file path) for batch processing using WatchService API from java.nio.file package
 
 ## Batch Processing Summary: 
-1. Without Parallel Processing \n
-    1000 rows --> 3.5 sec \n
-    10000 rows--> 3 min 10sec
+1. Without Parallel Processing <br /> 
+    1000 rows --> 3.5 sec <br /> 
+    10000 rows--> 3 min 10sec <br /> 
 
-2. Using Chunk-wise Parallel Processing
-    1000 rows--> 356 ms
-    10000 rows--> 11s 689ms
+2. Using Chunk-wise Parallel Processing <br /> 
+    1000 rows--> 356 ms <br /> 
+    10000 rows--> 11s 689ms <br /> 
